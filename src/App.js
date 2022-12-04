@@ -13,6 +13,9 @@ function App() {
         <p>
           By here, docker compose should be ready. The run command became much easier
         </p>
+        <p>
+          AWS
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
