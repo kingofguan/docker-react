@@ -9,8 +9,8 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
-    environment:
-      - WATCHPACK_POLLING=true
+    # environment:
+    #   - WATCHPACK_POLLING=true
   tests: 
     build:
       context: .
@@ -19,5 +19,5 @@ services:
       - /app/node_modules
       - .:/app
     command: ["npm", "run", "test"]
-    environment:
-      - WATCHPACK_POLLING=true    
+    # environment:
+    #   - WATCHPACK_POLLING=true    
